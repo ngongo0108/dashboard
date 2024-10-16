@@ -1,12 +1,12 @@
-import './App.scss';
+import './Layouts.scss';
 import SidebarMenu from './components/sideMenu';
 import Router from './components/routes';
 import { Layout, Space } from 'antd';
 import { useState } from 'react';
-import Layouts from './components/pages/homepage'
+
 const { Sider, Content } = Layout;
 
-const App = () => {
+const Layouts = () => {
   const [select, setSelect] = useState();
   const handleSelectChange = (newSelect) =>{
     setSelect(newSelect);
@@ -37,4 +37,4 @@ const App = () => {
   )
     
   };
-export default App;
+export default Layout;

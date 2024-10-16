@@ -1,0 +1,13 @@
+.homepage{
+    display: flex;
+    background-color: #F5F4EF;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: start;
+    }
+}
